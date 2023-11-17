@@ -1,0 +1,50 @@
+ body {
+   background-image: url(../media/lucas-background.jpg);
+   background-size: cover;
+   background-repeat:;
+   animation-name: fade-up;
+   animation-duration: 4s;
+ }
+
+ menu::before {
+   content: '';
+   position: absolute;
+ }
+
+ .menu {
+   border: 1px azure solid;
+   text-align: right;
+   border-radius: 40px;
+   padding: 5px 40px;
+   color: black;
+   background-repeat: no-repeat;
+ }
+ a:hover {
+   background-color: black;
+ }
+
+ .menucolor {
+   color: white;
+   opacity:80%;
+   text-decoration: none;
+ }
+.contactfont{
+  color:white;
+  font-style: oblique;
+  text-align:;
+}
+
+.form{
+  text-align: center;
+  padding-top:50px;
+}
+
+.input{
+  border-radius: 10px;
+  background-color: aliceblue;
+  opacity:0.5;
+}
+
+input:hover{
+  background-color:white;
+}

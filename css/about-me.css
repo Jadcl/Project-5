@@ -1,0 +1,66 @@
+@keyframes fade-up {
+   0% {
+     opacity: 0;
+     transform: translateY(30px) scale(0.9);
+   }
+
+   100% {
+     opacity: 1;
+     transform: translateY(0px) scale(1);
+   }
+ }
+
+ body {
+   background-image: url(../media/lucas-background.jpg);
+   background-size: cover;
+   background-repeat:;
+   animation-name: fade-up;
+   animation-duration: 4s;
+ }
+
+ .body {
+   margin: 0;
+   animation: fade-up 5s;
+ }
+
+ menu::before {
+   content: '';
+   position: absolute;
+ }
+
+ /* I want the menu bar to stay as is with the look it has but the text is not showing
+when I separate them then the look disappears even to the text shows */
+ .menu {
+   border: 1px azure solid;
+   text-align: right;
+   border-radius: 40px;
+   padding: 5px 40px;
+   color: black;
+   background-repeat: no-repeat;
+ }
+ a:hover {
+   background-color: black;
+ }
+
+ .menucolor {
+   color: white;
+   opacity:80%;
+   text-decoration: none;
+ }
+
+.grid.container{
+ display: grid;
+  gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+ }
+
+.me{
+  text-align:right;
+  color:white;
+  padding-top:35px;
+  padding-left:50%;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 22px;
+}
